@@ -1,0 +1,17 @@
+audio {
+    height: 100vh;
+}
+
+.audio audio {
+    margin: 0 auto;
+    display: table;
+}
+
+video {
+    height: 100vh;
+}
+
+.video video {
+    margin: 0 auto;
+    display: table;
+}

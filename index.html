@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <form action="#">
+        <span>Имя</span><input type="text" required autofocus name="firstname"><br>
+        <span>Имейл</span><input type="email" required name="email"><br>
+        <span>Пароль</span><input type="password" required name="password"><br>
+        <span>Возраст</span><input type="number" required name="yearold"><br>
+        <span>Дата рождения</span><input type="date" required name="birthdate"><br>
+        <span>Номер телефона</span><input type="tel" required name="phonenumber"><br>
+        <span>Ползунок</span><input type="range" required name="volume" min="0" max="10"><br>
+        <button type="submit">Отправить</button><br>
+        <button type="reset">Сбросить</button><br>
+        <label class="custom-checkbox">
+            <input id="check" type="checkbox">
+            <i class="fa-solid fa-check"></i>
+            Чекбокс
+        </label><br>
+        <div class="audio">
+            <audio controls src="audio.mp3"></audio>
+        </div>
+        <div class="video">
+            <video src="/Video/video.mp4" type="video/mp4" autoplay loop muted preload="auto"></video>
+        </div>
+    </form>
+</body>
+
+</html>
